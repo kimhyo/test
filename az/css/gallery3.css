@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; border:none;}
+ul,li{ list-style:none;}
+body{ background:#000;}
+#photo_all{width:1000px; margin:20px auto;}
+#photo{width:300px; float:left; overflow:hidden;}
+#photo ul{height:460px;}
+#photo ul li{ width:150px; float:left;}
+#photo ul li img{border:3px solid #fff; width:140px; height:105px;}
+
+.page_all{ width:900px;}
+.page{ width:300px; float:left;}
+
+/*이전/다음 버튼*/
+#photo p{ clear:both; text-align:center;}
+#photo p img{ cursor:pointer; margin-right:5px;}
+
+/*우측 메인 큰 이미지 */
+#main{width:600px; float:right;}
+#main img{border:3px solid #fff; width:650px;height:480px; position:absolute;}
+

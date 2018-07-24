@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,img,ul,li,a{margin:0; padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+
+body{width:600px; margin:20px auto;background:#FFFFCC;}
+
+div#box{width:600px; margin:0 auto; background:#fff; border:2px solid #fff; overflow:hidden; position:relative; margin-top:100px;}
+div#imgGroup{ height:350px; position:relative;}
+
+img{ position:absolute; width:600px; height:350px;}
+img#image1{top:0; left:0;}
+img#image2{top:0; left:600px;}
+img#image3{top:0; left:1200px;}
+img#image4{top:0; left:1800px;}
+
+#btnGroup{position:absolute;right:10px; bottom:2%;}
+#btnGroup li{ float:left; background:#fff; width:16px;height:16px;margin-right:6px; cursor:pointer; text-align:center;}
+#btnGroup li a{color:#000;font:12px 돋움; display:block; padding-top:2px;}
+#btnGroup li a:hover{ background:#0066FF;}

@@ -1,0 +1,203 @@
+﻿ /*엘지*/
+/*엘지서브3*/
+#lg-sub3 {
+    background-image: url('../images/lg/lg3.jpg');
+    width: 100%;
+    height: 1330px; 
+    margin:0 auto; padding:0;
+    background-position:top;
+    background-repeat:no-repeat;
+	
+	
+}
+/*엘지서브2*/
+#lg-sub2 {
+    background-image: url('../images/lg/lg2.jpg');
+    width: 100%;
+    height: 918px; 
+    margin:0 auto; padding:0;
+    background-position:top;
+    background-repeat:no-repeat;
+
+}
+ /*서울도서관*/
+/*서울도서관메인*/
+#sl-main1 {/*이미지 박스*/
+    background-image: url('../images/sl/sl1.jpg');
+    width: 100%;
+    height: 1407px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*서울도서관메인2*/
+#sl-main2 {/*이미지 박스*/
+    background-image: url('../images/sl/sl2.jpg');
+    width: 100%;
+    height: 1407px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+  /*서울도서관서브1*/
+#sl-sub1 {/*이미지 박스*/
+    background-image: url('../images/sl/sl3.jpg');
+    width: 100%;
+    height: 824px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*서울도서관서브2*/
+#sl-sub2 {/*이미지 박스*/
+    background-image: url('../images/sl/sl4.jpg');
+    width: 100%;
+    height: 1125px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*서울도서관서브3*/
+#sl-sub3 {/*이미지 박스*/
+    background-image: url('../images/sl/sl5.jpg');
+    width: 100%;
+    height: 1036px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*피아트메인*/
+#f-main {/*이미지 박스*/
+    background-image: url('../images/f/f1.jpg');
+    width: 100%;
+    height: 978px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*피아트서브1*/
+#f-sub1 {/*이미지 박스*/
+    background-image: url('../images/f/f2.jpg');
+    width: 100%;
+    height: 1133px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/*피아트서브2*/
+#f-sub2 {/*이미지 박스*/
+    background-image: url('../images/f/f3.jpg');
+    width: 100%;
+    height: 1877px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}      
+/*피아트서브3*/
+#f-sub3 {/*이미지 박스*/
+    background-image: url('../images/f/f4.jpg');
+    width: 100%;
+    height: 1246px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}   
+
+/*인덱스*/
+#index {/*이미지 박스*/
+    background-image: url('/images/main.jpg');
+    width: 100%;
+    height: 864px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}  
+/*프로그램메인*/
+#p-main {/*이미지 박스*/
+    background-image: url('../images/p/1.jpg');
+    width: 100%;
+    height: 1024px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub1 {/*이미지 박스*/
+    background-image: url('../images/p/2.jpg');
+    width: 100%;
+    height: 1024px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub2 {/*이미지 박스*/
+    background-image: url('../images/p/3.jpg');
+    width: 100%;
+    height: 1024px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub3 {/*이미지 박스*/
+    background-image: url('../images/p/4.jpg');
+    width: 100%;
+    height: 1024px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub4 {/*이미지 박스*/
+    background-image: url('../images/p/5.jpg');
+    width: 100%;
+    height: 768px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub5 {/*이미지 박스*/
+    background-image: url('../images/p/6.jpg');
+    width: 100%;
+    height: 768px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub6 {/*이미지 박스*/
+    background-image: url('../images/p/7.jpg');
+    width: 100%;
+    height: 768px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#p-sub7 {/*이미지 박스*/
+    background-image: url('../images/p/8.jpg');
+    width: 100%;
+    height: 768px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#calli {/*이미지 박스*/
+    background-image: url('../images/calli/calli1031.jpg');
+    width: 100%;
+    height: 3320px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+} 
+#poster {/*이미지 박스*/
+    background-image: url('../images/poster/kang.jpg');
+    width: 100%;
+    height: 1414px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+} 	
+#poster2 {/*이미지 박스*/
+    background-image: url('../poster/img/kangheodalim.jpg');
+    width: 100%;
+    height: 1414px; 
+    margin:0 auto; padding:0;
+    background-repeat: no-repeat;
+    background-position: top center;
+} 	

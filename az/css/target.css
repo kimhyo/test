@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li{list-style:none;}
+a{text-decoration:none;color:#fff;}
+#menu{ background:#FF0066; padding:5px 0; text-align:center;}
+#menu li{ display:inline; margin:0 30px;}
+#content{ height:500px;border-bottom:2px solid #FF0066;}

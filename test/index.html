@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>[당첨자 발표] 2015 인터넷원격훈련 학습만족도(VOC)조사</title>
+<script>
+window.onload = function() {  
+  document.body.style.overflow='hidden';  
+  resizer();  
+}  
+function resizer()  
+{  
+  //원하는 크기  
+  var contentW = 500;  
+  var contentH = 1020;  
+  
+  /* 
+  //이런식으로 컨텐츠의 값을 가져와서 동적으로 피팅을 목적으로 한다. 
+  //이렇게 
+  var contentW = document.getElementById('image').width; 
+  var contentH = document.getElementById('image').height; 
+  //또는 이렇게 
+  var contentW = document.getElementsByTagName('img').width; 
+  var contentH = document.getElementsByTagName('img').height; 
+  */  
+  
+  //모니터 해상도  
+  var maxW = screen.availWidth;  
+  var maxH = screen.availHeight;  
+  //창을 화면 중앙에 위치 시키기 위한 좌표  
+  var windowX = (maxW/2)-(contentW/2);  
+  var windowY = (maxH/2)-(contentH/2);  
+  //최초 최소값으로 피팅  
+  window.moveTo(windowX,windowY);  
+  window.resizeTo(contentW, contentH);  
+  //현재 크기가져오기  
+  if (window.innerWidth)  
+  {  
+    var innerW = window.innerWidth;  
+    var innerH = window.innerHeight;  
+  }  
+  else  
+  {  
+    var innerW = document.body.clientWidth;  
+    var innerH = document.body.clientHeight;  
+  }  
+  //창의 전체 크기 얻기  
+  var winW = contentW - (innerW - contentW);  
+  var winH = contentH - (innerH - contentH);  
+  
+  //모니터보다 큰경우 처리  
+  if(winW > maxW)  
+  {  
+    winW = maxW;  
+    windowX = 0;  
+  }  
+  
+  if(winH > maxH)  
+  {  
+    winH = maxH;  
+    windowY = 0;  
+  }  
+  window.moveTo(windowX,windowY);  
+  //최종 사이즈 조절, 크롬은 동적처리가 안된다.  
+  if (navigator.userAgent.indexOf('Chrome')>-1)  
+    //경우에 따라서 더하는 수치가 바뀔수 있으나 경험상  아래의 수치가 적당했다.  
+    window.resizeTo(contentW+10, contentH+58);   
+  else  
+    window.resizeTo(winW, winH);  
+} 
+</script>
+<style type="text/css">
+* {margin:0; padding:0; font: normal 12px '맑은 고딕',Malgun Gothic,sans-serif;
+color: #333; letter-spacing:; line-height:1.5;}
+.all{width:500px; height:auto; border:1px solid #A8A8A8; clear:both; overflow:hidden;  border-top:5px solid #437c6b; margin:0 auto;}
+.head {width:460px; height:98px; margin:0 auto;}
+.txt {width:430px; height:200px; margin:0 auto;}
+
+.table {margin:0 auto; width:460px; height:auto;}
+.table1 { margin-left:20px; margin-top:10px; margin-bottom:20px; float:left;}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:12px;padding:2px 22px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:12px;font-weight:normal;padding:2px 22px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal; background:#e2efd9;}
+.tg .tg-yw4l{vertical-align:top}
+
+.table2 { margin-left:15px; margin-bottom:20px;float:right;}
+
+</style>
+</head>
+
+<body>
+	<div class="all">
+		<div class="head"><img src="images/main.gif"></div>
+		<div class="txt"><br>지난 3.15 ~3.21 기간 진행되었던 <br><font style="font-weight:bold; color:#437c6b;">[2015 인터넷원격훈련 학습만족도(VOC) 조사]</font>에 참여해주신
+모든 분들께<br>진심으로 감사 드립니다.
+우수응답자로 선정되신 분들께는 모바일 상품권 1만원을 보내드립니다.
+앞으로도 학습자의 의견에 귀 기울이는 알파코가 되겠습니다.<br>감사합니다.<br><br>
+▶ 설문조사명: 2015 인터넷원격훈련 학습만족도(VOC) 조사<br>
+▶ 당첨자상품: 모바일상품권 1만원<br>
+▶ 상품발송일: 3.29(화)<br>
+▶ 당첨자 명단<br><br></div>	
+		 <div class="table">
+        	<div class="table1">
+            <table class="tg">
+              <tr>
+                <th class="tg-yw4l">이름</th>
+                <th class="tg-yw4l">휴대폰번호</th>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">구미경</td>
+                <td class="tg-yw4l">010-****-7123</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">여준홍</td>
+                <td class="tg-yw4l">010-****-5639</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김민경</td>
+                <td class="tg-yw4l">010-****-1092</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김민수</td>
+                <td class="tg-yw4l">010-****-6198</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">박서현</td>
+                <td class="tg-yw4l">010-****-2006</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">서동민</td>
+                <td class="tg-yw4l">010-****-3293</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">염철민</td>
+                <td class="tg-yw4l">010-****-5600</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이강준</td>
+                <td class="tg-yw4l">010-****-5933</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이수길</td>
+                <td class="tg-yw4l">010-****-7228</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이승주</td>
+                <td class="tg-yw4l">010-****-0031</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">장지현</td>
+                <td class="tg-yw4l">010-****-9876</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">최명식</td>
+                <td class="tg-yw4l">010-****-4119</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">하정석</td>
+                <td class="tg-yw4l">010-****-5183</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">양선희</td>
+                <td class="tg-yw4l">010-****-7313</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">공한식</td>
+                <td class="tg-yw4l">010-****-9094</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">한민숙</td>
+                <td class="tg-yw4l">010-****-5375</td>
+              </tr>              
+              <tr>
+                <td class="tg-yw4l">윤혜미</td>
+                <td class="tg-yw4l">010-****-6781</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김문주</td>
+                <td class="tg-yw4l">010-****-9847</td>
+              </tr>              
+              <tr>
+                <td class="tg-yw4l">권순찬</td>
+                <td class="tg-yw4l">010-****-9773</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이광근</td>
+                <td class="tg-yw4l">010-****-8745</td>
+              </tr>              
+              <tr>
+                <td class="tg-yw4l">유건상</td>
+                <td class="tg-yw4l">010-****-7745</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">정세희</td>
+                <td class="tg-yw4l">010-****-7703</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">홍정환</td>
+                <td class="tg-yw4l">010-****-4400</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김두현</td>
+                <td class="tg-yw4l">010-****-5772</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김석주</td>
+                <td class="tg-yw4l">010-****-5478</td>
+              </tr>
+            </table>
+		</div>
+        	<div class="table1">
+            <table class="tg">
+              <tr>
+                <th class="tg-yw4l">이름</th>
+                <th class="tg-yw4l">휴대폰번호</th>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이정용</td>
+                <td class="tg-yw4l">010-****-1017</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김도형</td>
+                <td class="tg-yw4l">010-****-1678</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">박용준</td>
+                <td class="tg-yw4l">010-****-3026</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이재영</td>
+                <td class="tg-yw4l">010-****-5001</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이종협</td>
+                <td class="tg-yw4l">010-****-1800</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">장동준</td>
+                <td class="tg-yw4l">010-****-8292</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">황종원</td>
+                <td class="tg-yw4l">010-****-0161</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">심성민</td>
+                <td class="tg-yw4l">010-****-6971</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김상훈</td>
+                <td class="tg-yw4l">010-****-5564</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김영준</td>
+                <td class="tg-yw4l">010-****-5127</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이광호</td>
+                <td class="tg-yw4l">010-****-7822</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김효상</td>
+                <td class="tg-yw4l">010-****-2570</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김미아</td>
+                <td class="tg-yw4l">010-****-5438</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이태이</td>
+                <td class="tg-yw4l">010-****-5697</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">최현규</td>
+                <td class="tg-yw4l">010-****-3217</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김경석</td>
+                <td class="tg-yw4l">010-****-2821</td>
+              </tr>              
+              <tr>
+                <td class="tg-yw4l">조남윤</td>
+                <td class="tg-yw4l">010-****-9371</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김희경</td>
+                <td class="tg-yw4l">010-****-8374</td>
+              </tr>              
+              <tr>
+                <td class="tg-yw4l">김경호</td>
+                <td class="tg-yw4l">010-****-1720</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">차용준</td>
+                <td class="tg-yw4l">010-****-1514</td>
+              </tr>              
+              <tr>
+                <td class="tg-yw4l">최종진</td>
+                <td class="tg-yw4l">010-****-9510</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">함관식</td>
+                <td class="tg-yw4l">010-****-9160</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">박병선</td>
+                <td class="tg-yw4l">010-****-9723</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">이희대</td>
+                <td class="tg-yw4l">010-****-2022</td>
+              </tr>
+              <tr>
+                <td class="tg-yw4l">김현겸</td>
+                <td class="tg-yw4l">010-****-2817</td>
+              </tr>
+            </table>
+            </div>
+		</div>
+    </div>
+</body>
+</html>

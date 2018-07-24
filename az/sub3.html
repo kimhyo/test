@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>애즈금융서비스</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/main2.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script>
+$(document).ready(function(){
+	//.selected로 지정된 li외에것은 숨겨라,href와 연결
+	$(".pannel li:not("+$('.tab li a.selected').attr("href")+")").hide();
+	$('.tab li a').click(function(){
+		$('.tab li a').removeClass('selected');
+		$(this).addClass('selected');
+		
+		$('.pannel li').hide();
+		$($(this).attr("href")).show();
+		return false;
+	});
+});
+</script>
+</head>
+
+<body>
+	<div class="header_wrap">
+    	<div class="header">
+        	<h1><a href="http://www.azfinancial.co.kr"><img src="img/ynasset_2013_03.jpg" /></a></h1>
+            <ul class="gnb">
+            	<li ><a href="sub6.html">회사소개</a>
+                	<ul class="sub">
+                    	<li><a href="sub6.html">CEO인사말</a></li>
+                        <!--<li><a href="#">회사소개</a></li>-->
+                        <li><a href="sub2.html">조직도</a></li>
+                        <li><a href="sub3.html">제휴사</a></li>
+                        <li><a href="sub4.html">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub1.html">상품정보</a>
+                	<ul class="sub sub2">
+                    	<!--<li><a href="#">보험설계가필요한이유</a></li>-->
+                        <li><a href="sub14.html">손해보험</a></li>
+                        <li><a href="sub1.html">건강보험</a></li>
+                        <li><a href="sub13.html">은퇴설계</a></li>
+                        <li><a href="sub11.html">어린이보험</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub7.html">재무설계</a>
+                	<ul class="sub sub3">
+                        <li><a href="sub5.html">재무설계란</a></li>
+                         <li><a href="sub7.html">재무설계절차</a></li>
+                        <li><a href="sub8.html">재무설계분야</a></li>
+                    </ul>
+                </li>
+                <li><a href="sub9.html">인재경영</a>
+                	<ul class="sub sub4">
+                    	<li><a href="sub9.html">에즈금융서비스행사</a></li>
+                        <!--<li><a href="#">지점별안내</a></li>-->
+                        <li><a href="sub10.html">AZ교육체계</a></li>
+                        <!--<li><a href="#">AZ교육동영상</a></li>-->
+                        <li><a href="sub12.html">FC의역할</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>  
+ 	<div class="con">
+    	<p class="topdeco"><img src="img/sub3_2.png"/></p>
+    	<p class="topdeco"><img src="img/sub3_1.png"/></p>
+	</div>
+   </div>
+	<div class="putter_wrap">
+    	<p class="put"><img src="img/ynasset_2013_62.png" /></p>        
+    </div>          
+</body>
+</html>
+
+
